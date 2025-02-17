@@ -19,8 +19,8 @@ jobs:
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
-      - uses: jafin/gha-search-replace@0.2-alpha
+      - uses: richardrigutins/replace-in-files@v2.1.10
         with:
-          include: tlds*.txt
-          search: \r\n
-          replace: ^\r\n@@||
+          files: tlds.txt
+          search-text: '\r\n'
+          replacement-text: '^\r\n@@||'
