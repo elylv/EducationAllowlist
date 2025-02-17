@@ -23,5 +23,5 @@ jobs:
       - uses: richardrigutins/replace-in-files@v2.1.10
         with:
           files: 'tlds.txt'
-          search-text: '\r\n'
-          replacement-text: 'x'
+          search-text: '\n'
+          replacement-text: '^\n@@||'
