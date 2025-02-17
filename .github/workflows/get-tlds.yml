@@ -14,5 +14,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-          dir: /
           filename: tlds.txt
