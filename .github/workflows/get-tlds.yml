@@ -16,11 +16,11 @@ jobs:
           url: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
           filename: tlds.txt
   formatfile:
-      uses: jafin/gha-search-replace@0.2-alpha
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jafin/gha-search-replace@0.2-alpha
         with:
-          # Files to include (supports glob patterns)
           include: tlds.txt
-          # String to search (or regex match)
           search: \r\n
-          # Replacement string
           replace: ^\r\n@@||
