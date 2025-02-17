@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Replace linebreaks in file
         run: |
-          sed '{:repl;N;$!brepl;s/\n/^\n@@||/g;}' "tlds.txt" > "blocklist.txt"
+          sed '{:repl;N;$!brepl;s/\n/^\n||/g;}' "tlds.txt" > "blocklist.txt"
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
