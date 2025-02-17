@@ -1,66 +1,66 @@
 ##Standard allowed items
 
 #OS/Browser
-||microsoft.com^
-||msftconnecttest.com^
-||msftncsi.com^
-||windows.com^
-||live.net^
-||live.com^
-||msn.com^
-||windowsupdate.com^
+@@||microsoft.com^
+@@||msftconnecttest.com^
+@@||msftncsi.com^
+@@||windows.com^
+@@||live.net^
+@@||live.com^
+@@||msn.com^
+@@||windowsupdate.com^
 safebrowsing.google.com
 safebrowsing.googleapis.com
 
 #Productivity
-||office.com^
-||office.net^
-||office365.com^
+@@||office.com^
+@@||office.net^
+@@||office365.com^
 accounts.google.com
 docs.google.com
-||skype.com^
+@@||skype.com^
 
 
 #Content Delivery Networks
 jsdelivr.net
-||fontawesome.com^
-||gstatic.com^
-||cloudfront.net^
-||cloudflare.com^
-||googleapis.com^
-||statically.io^
+@@||fontawesome.com^
+@@||gstatic.com^
+@@||cloudfront.net^
+@@||cloudflare.com^
+@@||googleapis.com^
+@@||statically.io^
 
 #Cloud
-||azure.com^
-||awsglobalaccelerator.com^
-||amazonaws.com^
-||amazontrust.com^
-||azurewebsites.net^
-||azure-devices.net^
-||microsoftpersonalcontent.com^
+@@||azure.com^
+@@||awsglobalaccelerator.com^
+@@||amazonaws.com^
+@@||amazontrust.com^
+@@||azurewebsites.net^
+@@||azure-devices.net^
+@@||microsoftpersonalcontent.com^
 
 #Common addons
-||grammarly.io^
+@@||grammarly.io^
 
 
 ##Education sites
 
 #Canvas
-||canvaslms.com^
-||canvas-user-content.com^
-||clever.com^
+@@||canvaslms.com^
+@@||canvas-user-content.com^
+@@||clever.com^
 
 #Instructure
-||instructure.com^
-||inscloudgate.net^
+@@||instructure.com^
+@@||inscloudgate.net^
 
 #TCI
-||teachtci.com^
+@@||teachtci.com^
 
 
 
 ##Region specific
 
 #Hillsborough County Florida
-||hillsboroughschools.org^
-||hcps.net^
+@@||hillsboroughschools.org^
+@@||hcps.net^
