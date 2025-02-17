@@ -20,8 +20,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: richardrigutins/replace-in-files@v2.1.10
-        with:
-          files: tlds.txt
-          search-text: '\r\n'
-          replacement-text: '^\r\n@@||'
+      - name: Replace linebreaks in file
+        run: sed -i 's/\r\n/^\r\n@@||/g' "tlds.txt" 
