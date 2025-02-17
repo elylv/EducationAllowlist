@@ -22,12 +22,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Replace linebreaks in file
         run: |
-          echo -e "\n" >>"blocklist.txt"
+          echo -e "\n" >>"tlds.txt"
           sed '{:repl;N;$!brepl;s/\n/^\n||/g;}' "tlds.txt" > "blocklist.txt"
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
+          git pull
           git add --all
           git commit -m "Update blocklist from latest TLDs file" -a
-          git push -f
+          git push
