@@ -23,6 +23,8 @@ jobs:
       - name: Replace linebreaks in file
         run: |
           sed '{:repl;N;$!brepl;s/\n/^\n@@||/g;}' "tlds.txt" > "blocklist.txt"
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
           git commit -m "Update blocklist from latest TLDs file" -a
       - uses: actions/checkout@v4
       - name: Test output
