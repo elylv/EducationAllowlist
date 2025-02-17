@@ -9,7 +9,7 @@ jobs:
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: wow-actions/download-upload@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -20,5 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Replace linebreaks in file
-        run: sed -i 's/\r\n/^\r\n@@||/g' "tlds.txt" 
+      - uses: richardrigutins/replace-in-files@v2.1.10
+           with:
+             files: 'tlds.txt'
+             search-text: '\r\n'
+             replacement-text: 'x'
