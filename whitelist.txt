@@ -49,7 +49,6 @@ jsdelivr.net
 ||canvaslms.com^
 ||canvas-user-content.com^
 ||clever.com^
-clever.com
 
 #Instructure
 ||instructure.com^
