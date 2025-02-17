@@ -22,3 +22,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Replace linebreaks in file
         run: sed '{:repl;N;$!brepl;s/\n/^\n@@||/g;}' "tlds.txt" > "blocklist.txt"
+      - name: Test output
+        run: echo "test" >"test.txt"
