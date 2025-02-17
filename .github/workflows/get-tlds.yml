@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: richardrigutins/replace-in-files@v2.1.10
-           with:
-             files: 'tlds.txt'
-             search-text: '\r\n'
-             replacement-text: 'x'
+         with:
+           files: 'tlds.txt'
+           search-text: '\r\n'
+           replacement-text: 'x'
