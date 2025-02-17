@@ -1,0 +1,2 @@
+# Default block all
+0.0.0.0 ^.$
