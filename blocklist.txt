@@ -1,2 +1,2 @@
 # Default block all
-||.^
+*.*
