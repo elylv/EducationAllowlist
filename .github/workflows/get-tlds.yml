@@ -12,6 +12,6 @@ jobs:
       - uses: wow-actions/download-upload@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          url: http://data.iana.org/TLD/tlds-alpha-by-domain.txt
+          url: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
           dir: /
           filename: tlds.txt
