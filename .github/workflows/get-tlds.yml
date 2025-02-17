@@ -32,4 +32,4 @@ jobs:
           git config --local user.name "github-actions"
           git add --all
           git commit -m "Update blocklist from latest TLDs file" -a
-          git push
+          git push -f
