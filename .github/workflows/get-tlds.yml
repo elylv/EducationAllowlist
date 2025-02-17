@@ -21,6 +21,6 @@ jobs:
     steps:
       - uses: jafin/gha-search-replace@0.2-alpha
         with:
-          include: tlds.txt
+          include: tlds*.txt
           search: \r\n
           replace: ^\r\n@@||
