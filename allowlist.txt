@@ -38,6 +38,8 @@ jsdelivr.net
 @@||azurewebsites.net^
 @@||azure-devices.net^
 @@||microsoftpersonalcontent.com^
+@@||onedrive.com^
+@@||sharepoint.com^
 
 #Common addons
 @@||grammarly.io^
@@ -58,6 +60,9 @@ jsdelivr.net
 #TCI
 @@||teachtci.com^
 
+
+#Search
+@@||google.com^
 
 
 ##Region specific
