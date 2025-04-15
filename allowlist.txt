@@ -63,6 +63,8 @@ jsdelivr.net
 
 #Search
 @@||google.com^
+@@||bing.com^
+@@||bing.net^
 
 
 ##Region specific
