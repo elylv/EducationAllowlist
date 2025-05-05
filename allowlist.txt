@@ -40,6 +40,7 @@ jsdelivr.net
 @@||microsoftpersonalcontent.com^
 @@||onedrive.com^
 @@||sharepoint.com^
+@@||microsoftonline.com^
 
 #Common addons
 @@||grammarly.io^
