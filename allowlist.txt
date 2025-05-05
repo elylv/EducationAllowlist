@@ -41,6 +41,7 @@ jsdelivr.net
 @@||onedrive.com^
 @@||sharepoint.com^
 @@||microsoftonline.com^
+@@||msftauth.net^
 
 #Common addons
 @@||grammarly.io^
