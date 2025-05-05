@@ -45,6 +45,7 @@ jsdelivr.net
 
 #Common addons
 @@||grammarly.io^
+@@||grammarly.com^
 
 
 ##Education sites
