@@ -62,7 +62,7 @@ jsdelivr.net
 
 #TCI
 @@||teachtci.com^
-
+@@||teachtci.net^
 
 #Search
 @@||google.com^
